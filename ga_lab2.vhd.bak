@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity lab2 is
+	port (
+		clk           : in std_logic ;
+		reset         : in std_logic ; -- reset_n
+		segu          : out std_logic_vector (6 downto 0);
+		segd          : out std_logic_vector (6 downto 0);
+		segc          : out std_logic_vector (6 downto 0);
+	);
+end entity lab2;
+	
+architecture behav of lab2 is
+    component lab2_qs is
+        port (
+            clk_clk                          : in  std_logic                    := 'X'; -- clk
+            pio_0_external_connection_export : out std_logic_vector(6 downto 0);        -- export
+            pio_1_external_connection_export : out std_logic_vector(6 downto 0);        -- export
+            pio_2_external_connection_export : out std_logic_vector(6 downto 0);        -- export
+            reset_reset_n                    : in  std_logic                    := 'X'  -- reset_n
+        );
+    end component lab2_qs;
+	begin
+    u0 : component lab2_qs
+        port map (
+            clk_clk                          => clk,                          --                       clk.clk
+            pio_0_external_connection_export => , -- pio_0_external_connection.export
+            pio_1_external_connection_export => , -- pio_1_external_connection.export
+            pio_2_external_connection_export => , -- pio_2_external_connection.export
+            reset_reset_n                    => reset                     --                     reset.reset_n
+        );
+
+end architecture behav;

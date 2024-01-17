@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "segu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segu[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
