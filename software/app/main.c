@@ -17,7 +17,7 @@ volatile __uint16_t u1;
 
 static void simple_irq(void* context, alt_u32 id)
 {   
-	if ( compteur < 1000) 
+	if ( compteur < 999) 
         	{
 				compteur += 1;
 				
