@@ -10,13 +10,15 @@ L'architecture du système est toujours composé d'un processeur NIOS II, d'un J
 
 Voici l'architecture : 
 
+![Architecture](Architecture.PNG)
+
 En plus du Qsys, l'afficheur 7 segments à été rajouté en vhdl ce qui permettra de brancher les PIO en entrée sur 4 bits et de sortir sur l'afficheur sur 7 bits.
 
 La gestion des centaines, dizaines et unité est gérer directement dans le programme C puis envoyé sur les 7 segments correspondant.
 
 ## Résultats
 
-Le compteur qui est composé de 3 afficheurs 7 segments compte jusqu'a 999 en décimale.
+Le compteur qui est composé de 3 afficheurs 7 segments compte jusqu'a 999 en décimale. Le compteur est incrémenté a chaque interruption crée par le timer (à chaque seconde).
 
 ## Conclusion
 
